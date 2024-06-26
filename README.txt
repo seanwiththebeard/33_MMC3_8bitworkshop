@@ -1,6 +1,3 @@
-ConfigTest_MMC3_NESDougConfig
-=====
-
 [Open this project in 8bitworkshop](http://8bitworkshop.com/redir.html?platform=nes&githubURL=https%3A%2F%2Fgithub.com%2Fseanwiththebeard%2F33_MMC3_8bitworkshop&file=hello.c).
 
 
