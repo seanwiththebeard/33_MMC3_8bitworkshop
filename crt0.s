@@ -362,9 +362,9 @@ detectNTSC:
 	
 	
 
-	.include "MMC3/mmc3_code.asm"
-	.include "LIB/neslib.s"
-	.include "LIB/nesdoug.s"
+	.include "mmc3_code.asm"
+	.include "neslib.s"
+	.include "nesdoug.s"
 	
 
 
@@ -373,7 +373,7 @@ detectNTSC:
 
 	
 .segment "CODE"	
-	.include "MUSIC/famitone2.s"
+	.include "famitone2.s"
 ; When music files get very big, it's probably best to
 ; split the songs into multiple swapped banks
 ; the music code itself is in the regular CODE banks.
@@ -382,10 +382,10 @@ detectNTSC:
 .segment "BANK12"	
 	
 music_data:
-	.include "MUSIC/TestMusic3.s"
+	.include "TestMusic3.s"
 
 sounds_data:
-	.include "MUSIC/SoundFx.s"
+	.include "SoundFx.s"
 
 
 	
