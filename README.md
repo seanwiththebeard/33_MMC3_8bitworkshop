@@ -1,6 +1,9 @@
 NES_MMC3_Example - Converted to 8bitworkshop by seanwiththebeard
 =====
 
+Uncomment the link line for crt0.s and then recomment it to get it to run
+There's a graphical glitch in 8bws but it seems to run fine when exported, tested in Mesen and on an Everdrive
+
 [Open this project in 8bitworkshop](http://8bitworkshop.com/redir.html?platform=nes&githubURL=https%3A%2F%2Fgithub.com%2Fseanwiththebeard%2F33_MMC3_8bitworkshop&file=hello.c).
 
 README - MMC3 code for neslib based C (cc65)
